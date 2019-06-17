@@ -1,0 +1,24 @@
+.button {
+  width: 173px;
+  padding: 13px 21px;
+  border: 1px solid #ccc;
+  background: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 20px;
+  outline: 1px solid transparent;
+}
+
+.button:hover {
+  background: #ccc;
+}
+
+.button:focus {
+  border-color: #FFD205;
+}
+
+.button:disabled {
+  background: #ccc;
+  pointer-events: none;
+}

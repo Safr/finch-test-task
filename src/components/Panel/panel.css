@@ -1,0 +1,20 @@
+.wrapper {
+  width: 300px;
+  min-height: 460px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+}
+
+span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../../magic-wand.svg');
+  cursor: pointer;
+}
